@@ -1,18 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-09-03T02:54:05.950Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="D6ClxnABBrdxBZ_tbMSI" version="15.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-03T03:10:34.216Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="90jQxpAiEgqa7qy6RE_9" version="15.0.5" type="github">
   <diagram id="JmoXTaD1lEMlr2eWaGcY" name="Page-1">
     <mxGraphModel dx="1666" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OrrjBf1ppI-KS7zJaC-k-4" value="" style="endArrow=classic;startArrow=classic;html=1;fillColor=#FF6666;strokeColor=#FF6666;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="30" y="540" as="sourcePoint" />
-            <mxPoint x="770" y="100" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="30" y="100" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="OrrjBf1ppI-KS7zJaC-k-5" value="&lt;u&gt;Member:&lt;br&gt;Library Member&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="150" width="100" height="300" as="geometry" />
         </mxCell>
@@ -60,12 +51,6 @@
             <mxPoint x="430" y="380" as="sourcePoint" />
             <mxPoint x="510" y="380" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="OrrjBf1ppI-KS7zJaC-k-25" value="X-Axis(objects)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="290" y="70" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="OrrjBf1ppI-KS7zJaC-k-26" value="Y-Axis(time)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" parent="1" vertex="1">
-          <mxGeometry x="-20" y="210" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
