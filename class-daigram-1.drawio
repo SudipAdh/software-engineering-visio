@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-04T03:01:32.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="9nUYLbwPv9qWWgbRyE2r" version="15.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-09-04T03:13:34.062Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="ka2p40VotjM2rMo9IpjW" version="15.0.6" type="github" pages="3">
   <diagram id="umKefwKCgidXAQDWAgCq" name="Page-1">
     <mxGraphModel dx="946" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -209,6 +209,41 @@
         </mxCell>
         <mxCell id="dplmnTCyApYFO_cvcMQi-1" value="" style="triangle;whiteSpace=wrap;html=1;dashed=0;direction=south;rotation=-180;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
           <mxGeometry x="340" y="710" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dCdgXuNT2qXg9TXq6k8e" name="Page-3">
+    <mxGraphModel dx="946" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="IiOli8EuxymiAFj2lBVr-0" />
+        <mxCell id="IiOli8EuxymiAFj2lBVr-1" parent="IiOli8EuxymiAFj2lBVr-0" />
+        <mxCell id="IiOli8EuxymiAFj2lBVr-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Writer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- Name : String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- Age : Int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="IiOli8EuxymiAFj2lBVr-1">
+          <mxGeometry x="80" y="90" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IiOli8EuxymiAFj2lBVr-12" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Document&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- Name: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- PageNumber: Int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="IiOli8EuxymiAFj2lBVr-1">
+          <mxGeometry x="360" y="90" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IiOli8EuxymiAFj2lBVr-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="IiOli8EuxymiAFj2lBVr-1">
+          <mxGeometry x="240" y="130" width="120" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="IiOli8EuxymiAFj2lBVr-15" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Ram: Writer&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Name: string = Ram Bahadur&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Age: int = 32&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="IiOli8EuxymiAFj2lBVr-1">
+          <mxGeometry x="160" y="240" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IiOli8EuxymiAFj2lBVr-16" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Draft: Document&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Name: string = Intro&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;PageNumber: int = 19&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="IiOli8EuxymiAFj2lBVr-1">
+          <mxGeometry x="510" y="240" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IiOli8EuxymiAFj2lBVr-17" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Master: Document&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Name: string = Overall&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;PageNumber: int = 112&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="IiOli8EuxymiAFj2lBVr-1">
+          <mxGeometry x="520" y="380" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IiOli8EuxymiAFj2lBVr-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="IiOli8EuxymiAFj2lBVr-1">
+          <mxGeometry x="340" y="281" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uuYoHstIvMbi4rMLF_Gf-0" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IiOli8EuxymiAFj2lBVr-1" target="IiOli8EuxymiAFj2lBVr-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="314" as="sourcePoint" />
+            <mxPoint x="450" y="330" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
