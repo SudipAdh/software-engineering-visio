@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-04T02:37:22.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="Gxm8_iwxNkymi39VqMXd" version="15.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-09-04T03:01:32.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="9nUYLbwPv9qWWgbRyE2r" version="15.0.6" type="github" pages="2">
   <diagram id="umKefwKCgidXAQDWAgCq" name="Page-1">
     <mxGraphModel dx="946" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -78,6 +78,138 @@
       <root>
         <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-0" />
         <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-1" parent="Q_TgbnYzyzTUJOnJ-Pfa-0" />
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;film clip&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- name: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ play()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ start()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ stop()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ reset ()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="50" y="80" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-9" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;channel&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="370" y="115" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-11" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="144.5" as="sourcePoint" />
+            <mxPoint x="370" y="144.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="439.5" y="50" as="sourcePoint" />
+            <mxPoint x="439.5" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-14" value="Independent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="390" y="20" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-15" value="fig: Dependency" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="220" y="270" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-16" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Bank&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ code&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ address&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ manages&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ maintains&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="230" y="300" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-17" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ATM&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ location&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ managedby&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ identifies&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ transactions&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="590" y="400" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-18" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ATM Transactions&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ transaction id&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ date&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ type&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ amount&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ post balance&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ modifies&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="690" y="560" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-19" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Saving Account&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ account no&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ balance&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="500" y="850" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-20" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Current Account&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ account no&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ balance&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ withdraw()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="110" y="850" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-21" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Account&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ number&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ balance&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ deposit()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ withdraw()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ create Transaction()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="260" y="590" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-22" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Customer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ name&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ address&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ dob&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ card number&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ pin&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ verifyPassword()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="60" y="480" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-23" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1" source="Q_TgbnYzyzTUJOnJ-Pfa-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="670" y="340" as="sourcePoint" />
+            <mxPoint x="390" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-25" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1" target="Q_TgbnYzyzTUJOnJ-Pfa-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="220" y="540" as="sourcePoint" />
+            <mxPoint x="390" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-29" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1" target="Q_TgbnYzyzTUJOnJ-Pfa-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="540" as="sourcePoint" />
+            <mxPoint x="580" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="540" />
+              <mxPoint x="400" y="455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-30" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1" source="Q_TgbnYzyzTUJOnJ-Pfa-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="577" as="sourcePoint" />
+            <mxPoint x="340" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-31" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1" source="Q_TgbnYzyzTUJOnJ-Pfa-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="660" as="sourcePoint" />
+            <mxPoint x="260" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-34" value="Has" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="60" y="630" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-35" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="110" y="620" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-38" value="1.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="145" y="640" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-39" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1" target="Q_TgbnYzyzTUJOnJ-Pfa-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="649" as="sourcePoint" />
+            <mxPoint x="540" y="649" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="630" />
+              <mxPoint x="540" y="630" />
+              <mxPoint x="540" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-43" value="Account &amp;nbsp;Transaction" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="560" y="610" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-46" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="420" y="640" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-57" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;entryX=-0.019;entryY=0.36;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1" target="Q_TgbnYzyzTUJOnJ-Pfa-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="910" as="sourcePoint" />
+            <mxPoint x="430" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-58" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-57">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-60" value="savings-checking" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="385" y="820" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_TgbnYzyzTUJOnJ-Pfa-61" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="460" y="850" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dplmnTCyApYFO_cvcMQi-0" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="310" y="580" width="100" height="435.76" as="geometry" />
+        </mxCell>
+        <mxCell id="dplmnTCyApYFO_cvcMQi-1" value="" style="triangle;whiteSpace=wrap;html=1;dashed=0;direction=south;rotation=-180;" vertex="1" parent="Q_TgbnYzyzTUJOnJ-Pfa-1">
+          <mxGeometry x="340" y="710" width="40" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
